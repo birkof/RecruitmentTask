@@ -65,3 +65,12 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
+
+eight_points_guzzle:
+    clients:
+        xflirt_api:
+            base_url: "%xflirt_api_url%"
+            options:
+                headers:
+                    Accept: "application/json"
+                timeout: 30
